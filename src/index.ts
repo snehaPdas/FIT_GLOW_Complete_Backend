@@ -1,10 +1,10 @@
 import  express ,{Application} from "express";
 import connectDB from "./utils/db"
 
-import userRoute from "../src/routes/userRoute"
-import adminRoute from "../src/routes/adminRoute"
-import trainerRoute from "../src/routes/trainerRoute"
-import MessagesRoute from "../src/routes/messageRoute";
+import userRoute from "./routes/userRoute"
+import adminRoute from "./routes/adminRoute"
+import trainerRoute from "./routes/trainerRoute"
+import MessagesRoute from "./routes/messageRoute";
 import { app, server } from './socket/socket'; 
 import errorMiddleware from "./middlewares/errorMiddleware";
 
