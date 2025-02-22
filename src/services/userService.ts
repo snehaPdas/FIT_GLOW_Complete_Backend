@@ -379,8 +379,8 @@ try {
     payment_method_types: ['card'],
      line_items: lineItems,
     mode: 'payment',
-    success_url: `http://localhost:5173/paymentSuccess?session_id=${sessionData._id}&stripe_session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `http://localhost:5173/paymentFailed`,
+    success_url: `https://snehasivadasn.site/paymentSuccess?session_id=${sessionData._id}&stripe_session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `https://snehasivadasan.site/paymentFailed`,
   });
 
   return session
