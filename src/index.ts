@@ -24,7 +24,7 @@ app.use(morgan('dev'));  // <-- Add Morgan middleware here
 
 
 const corsOptions = {
-    origin:"http://localhost:5173",
+    origin:["http://localhost:5173","https://snehasivadasan.site"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
     allowedHeaders: "Content-Type,Authorization",
     credentials: true,
